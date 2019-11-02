@@ -23,7 +23,7 @@ def recognizeNumber(path, flag):
 def LR(num):
     LR = joblib.load(modelPath + "model_LR.m")
     predict_LR = LR.predict([num])
-    print("[LR] Handwritten number is closest to ", predict_LR[0])
+    print("[LR] Handwritten number is closest to", predict_LR[0])
 
 # LSVC
 
@@ -31,7 +31,7 @@ def LR(num):
 def LSVC(num):
     LSVC = joblib.load(modelPath + "model_LSVC.m")
     predict_LSVC = LSVC.predict([num])
-    print("[LSVC] Handwritten number is closest to ", predict_LSVC[0])
+    print("[LSVC] Handwritten number is closest to", predict_LSVC[0])
 
 # MLPC
 
@@ -39,7 +39,7 @@ def LSVC(num):
 def MLPC(num):
     MLPC = joblib.load(modelPath + "model_MLPC.m")
     predict_MLPC = MLPC.predict([num])
-    print("[MLPC] Handwritten number is closest to ", predict_MLPC[0])
+    print("[MLPC] Handwritten number is closest to", predict_MLPC[0])
 
 # SGDC
 
@@ -47,4 +47,4 @@ def MLPC(num):
 def SGDC(num):
     SGDC = joblib.load(modelPath + "model_SGDC.m")
     predict_SGDC = SGDC.predict([num])
-    print("[SGDC] Handwritten number is closest to ", predict_SGDC[0])
+    print("[SGDC] Handwritten number is closest to", predict_SGDC[0])

@@ -1,5 +1,5 @@
 # NumReg: Handwritten Numbers Recognition
-[![Python 3.5](https://img.shields.io/badge/python-3.5-yellow.svg)](https://www.python.org/) ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+[![Python 3.5](https://img.shields.io/badge/python-3.5-yellow.svg)](https://www.python.org/)[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Evilran/NumReg)
 
     __  __                      ____
     /\ \/\ \                    /\  _`\
@@ -19,7 +19,7 @@ Requirements
 
 - pandas==0.24.1
 
-- Pillow==6.1.0
+- Pillow==6.2.0
 
 - scikit_learn==0.21.3
 
