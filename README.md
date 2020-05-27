@@ -1,5 +1,5 @@
 # NumReg: Handwritten Numbers Recognition
-[![Python 3.5](https://img.shields.io/badge/python-3.5-yellow.svg)](https://www.python.org/)[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Evilran/NumReg)
+[![Python 3.5](https://img.shields.io/badge/python-3.5-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Evilran/NumReg)
 
     __  __                      ____
     /\ \/\ \                    /\  _`\
